@@ -11,6 +11,9 @@ body{
     width: 960px !important;
     margin: 0 auto;
 }
+.divider{
+    margin-top: 131px;
+}
 header{
     background: url(../images/banner/banner3.png);
     width: 100%;
@@ -51,4 +54,100 @@ header{
     padding: 1%;
     border-radius: 5px;
     border: none;
+}
+.icon-text{
+    width: 290px;
+}
+.icon-text i{
+    padding-right: 12px;
+    color: #14ee76;
+}
+.icon-text p{
+    float: right;
+}
+.controls i{
+    margin-top: 10px;
+}
+.right-side{
+    margin-top: 220px;
+}
+.right-side h1{
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.right-side p{
+    width: 416px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+.icon-text p{
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+}
+.previous-failure-control{
+    display: flex;
+    justify-content: space-between;
+}
+/* My plan starts here */
+.plan-title h1{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.flex-controls{
+    display: flex;
+    justify-content: space-between;
+}
+.single-plan-flex{
+    text-align: center;
+}
+.single-plan-flex h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #151414;
+}
+.single-plan-flex h4{
+    font-weight: 400;
+    font-size: 25px;
+    color: #737272;
+}
+/* positive mind starts here */
+.background{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 280px;
+    position: relative;
+    z-index: -1;
+}
+.background-content{
+    background-image: url(../images/gradient1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 280px;
+    position: absolute;
+    z-index: 1;
+}
+
+/*try */
+/* .background-content {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.85);
+    z-index:9999;
+    color:white;
+} */
+
+.positive-text{
+    padding: 58.96px 0px 58.96px 64px;
 }
