@@ -151,3 +151,39 @@ header{
 .positive-text{
     padding: 58.96px 0px 58.96px 64px;
 }
+/* Footer Starts Here */
+.future-full-controls{
+    display: flex;
+    justify-content: space-between;
+    padding: 131px 0px;
+}
+.social-icon{
+    display: block;
+}
+.future-side span{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+.future-side h1{
+    font-weight: 700;
+    color: #f8f8f8;
+    font-size: 45px;
+}
+.future-side p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    margin: 16px 0px;
+}
+.subscribe-side h3{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+}
+.future-side{
+    width: 485px;
+}
